@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-It's nice that you've taken an interest in me! :-)
+It's nice that you've taken an interest in me! :)
 
 ### More Information
 
