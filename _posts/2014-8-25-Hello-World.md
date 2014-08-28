@@ -17,7 +17,7 @@ For me, there where 2 reasons:
 
 So, because I wanted to kick start my blog again, why not start from scratch!
 
-# How?
+## How?
 
 I started out by doing everything on my own locally. After reading up on some other blogs, I thought that would take too much time to set everything up myself. That's when I found the [Jekyll Now](https://github.com/barryclark/jekyll-now) repo.
 
@@ -29,7 +29,7 @@ So now I've gotten a minimalistic blog over which I've got full control and I ca
 
 So far I'm liking this! :)
 
-# Next?
+## Next?
 
 So, what can you expect to see on this bog?
 
@@ -37,7 +37,7 @@ I'm planning to do a series on building a maintainable Asp.Net MVC site. After t
 
 You can follow my blog if you'd like to be kept up-to-date. 
 
-# Previous?
+## Previous?
 
 I've not migrated my old posts yet. Still looking for a good (= easy) way to convert them to the Markdown format. It's also not a top priority since, the old site will remain online.
 
