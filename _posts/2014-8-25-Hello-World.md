@@ -1,7 +1,44 @@
 ---
 layout: post
-title: Testing
+title: "I've moved!"
 published: true
 ---
 
-Dit is een test!
+Like alot of bloggers before me, I've also moved away from [Wordpress](https://rafvb.wordpress.com/). The blog now runs on [GitHub pages](https://pages.github.com/), using [Jekyll](http://jekyllrb.com/) as the blogging platform.
+
+## Why?
+
+The most important question is, why move?
+
+For me, there where 2 reasons:
+
+1. I like Wordpress, and found Wordpress.com handy to get started. I considered self hosting my Wordpress blog, but didn't feel like installing php or a sql server. I also found Worpress a bit too big for my blogging needs, and since I like to be in control of everything (my wife calls it: control-freak), I got lost in all the options.
+2. It's fun to try new stuff :)
+
+So, because I wanted to kick start my blog again, why not start from scratch!
+
+# How?
+
+I started out by doing everything on my own locally. After reading up on some other blogs, I thought that would take too much time to set everything up myself. That's when I found the [Jekyll Now](https://github.com/barryclark/jekyll-now) repo.
+
+Basically you can just fork it and start customising. I really love it's simplicity, so it serves as a really good starting point for a minimalistic blog. You can read the full tutorial of how to set it up at the Jekyll Now repo.
+
+I'm also using [prose.io](http://prose.io) to edit the files. It works directly on my repo and has a built in Mardown editor (among other blogging features, such as draft posts and images support). Works very well on the go too. Great tool! 
+
+So now I've gotten a minimalistic blog over which I've got full control and I can manage fully in the cloud.
+
+So far I'm liking this! :)
+
+# Next?
+
+So, what can you expect to see on this bog?
+
+I'm planning to do a series on building a maintainable Asp.Net MVC site. After that maybe I'll do some posts on Windows Phone development.
+
+You can follow my blog if you'd like to be kept up-to-date. 
+
+# Previous?
+
+I've not migrated my old posts yet. Still looking for a good (= easy) way to convert them to the Markdown format. It's also not a top priority since, the old site will remain online.
+
+And now, lets get blogging!
