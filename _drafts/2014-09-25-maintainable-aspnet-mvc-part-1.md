@@ -4,10 +4,10 @@ published: false
 
 ## Maintainable ASP.NET MVC Part 1: Setting up coded UI test on ASP.NET MVC using Selenium
 
-I'm doing a series of posts on developing a maintainable ASP.NET MVC website. In this first post we'll be looking at setting up a basic website and using Selenium to create coded UI tests. These tests will be the driver for the implementation we'll be creating.
+I'm doing a series of posts on developing a maintainable ASP.NET MVC website. In this first post we'll be looking at setting up a basic website and using Selenium to create coded UI tests. These tests will be the driver for the implementation we'll be creating in the next posts.
 
 ### The case
-The website we'll be creating will let us manage our monthly spendings. The user will be able to add expenses and get an overview of them per month.
+The website that we'll creating will let us manage our monthly spendings. The user will be able to add expenses and get an overview of them per month.
 
 A simple case, but enough to demonstrate the set-up we'll create.
 
@@ -121,7 +121,7 @@ As mentioned before, IE requires an extra step to work.
 ## Getting IE to work
 If you read the reason why the test failed in its results, it points you to the Internet Explorer Driver Server. You can get it from here: http://www.seleniumhq.org/download/
 
-Download the **32 bit** verion! We expirienced performance issues with the 64 bit version, so I recommend 32 bit.
+Download the **32 bit** verion! We experienced performance issues with the 64 bit version, so I recommend 32 bit.
 
 Unzip and place the executable somewhere. Next, make sure you place it's folder on the systems path variable, so Selenium can use it.
 
