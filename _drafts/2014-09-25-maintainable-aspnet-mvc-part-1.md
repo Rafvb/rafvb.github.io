@@ -136,6 +136,10 @@ Now open up the Index.cshtml file under Views\Home and change the title of the p
 
 Build the project, make sure it's still running (if you haven't closed IIS Express it should still be running, else just Ctrl-F5) and run the test again.
 
+Bask in the glory of your green test!
+
+
+
 ### Resources
 A lot of inspiriration was found:
 
