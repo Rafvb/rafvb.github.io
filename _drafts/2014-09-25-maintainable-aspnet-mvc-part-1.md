@@ -138,9 +138,16 @@ Build the project, make sure it's still running (if you haven't closed IIS Expre
 
 Bask in the glory of your green test!
 
+## What's next
+We now Selenium set up and can add functionality, driven through UI tests. In the next post, we'll add some more tests, but bump into maintainability issues.
 
+Looking at the test we have written, there are alot of bad practices in there. We've mixed the web driver into our tests, there is no configuration for our url, we're not closing the driver when asserts fail, ...
 
-### Resources
-A lot of inspiriration was found:
+What's even worse is that there will be lots of code duplication in our tests if we keep on writing them this way. They will become a maintenance hell and eventually not be maintained or even deleted.
 
-http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627
+So in the next post we'll clean this up and make sure our tests stay in shape. We'll strip Selenium from the tests themeselves and make sure they only describe the funcitonal requirements, removing all the technical details.
+
+Stay tuned!
+
+## Feedback
+If you are following along and run into problems or have questions, you can post them in the comments. If you are eagerly waiting for the next lessen, put some pressure on me to get them finished by posting it in the comments ;)
