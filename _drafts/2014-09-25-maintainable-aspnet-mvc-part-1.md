@@ -75,7 +75,7 @@ Driver.title will return the title of the current page it is on, so we can use t
 
 Finally we want to close the Web Driver, so that our browser window also closes:
 
-	driver.Quit();
+    driver.Quit();
 
 The test method should look like this now:
 
