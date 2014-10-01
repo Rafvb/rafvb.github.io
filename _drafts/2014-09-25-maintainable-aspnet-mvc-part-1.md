@@ -91,6 +91,25 @@ The test method should look like this now:
             driver.Quit();
         }
 
+## Making it fail
+To run our test, we first have to make sure that our website is running. Press Ctrl-F5 to start it without debugging.
+
+Next run the test by placing the cursor in the test and pressing Ctrl-R, T.
+
+And, behold!
+
+...
+
+Nothing happens.
+
+No browser window pops open and the test failed. Don't panic, this is completely normal :)
+
+As mentioned before, IE requires an extra step to work.
+
+## Getting IE to work
+
+
+
 ### Resources
 A lot of inspiriration was found:
 
