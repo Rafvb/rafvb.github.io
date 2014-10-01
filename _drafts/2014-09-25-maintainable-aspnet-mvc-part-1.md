@@ -107,8 +107,34 @@ No browser window pops open and the test failed. Don't panic, this is completely
 As mentioned before, IE requires an extra step to work.
 
 ## Getting IE to work
+If you read the reason why the test failed in its results, it points you to the Internet Explorer Driver Server. You can get it from here: http://www.seleniumhq.org/download/
 
+Download the **32 bit** verion! We expirienced performance issues with the 64 bit version, so I recommend 32 bit.
 
+Unzip and place the executable somewhere. Next, make sure you place it's folder on the systems path variable, so Selenium can use it.
+
+[AddIEDriverToPath.PNG]
+
+If you run the test again, IE should pop open and navigate to our home page!
+
+## Fixing the failing test
+We now have a test that fails for the correct reason:
+
+	Assert.AreEqual failed. Expected:<BudgetMeter - Home>. Actual:<Home Page - My ASP.NET Application>.
+
+Notice however that the browser window remains open. Because the Assert.AreEqual method throws an exception when it fails, toe Quit method is never called. We'll fix this in the next posts.
+
+Now lets get that test green!
+
+Open up the _Layout.cshtml file under Views\Shared and alter the <title> tage to look like this:
+
+	<title>BudgetMeter - @ViewBag.Title</title>
+
+Now open up the Index.cshtml file under Views\Home and change the title of the page by altering the line at the top:
+
+	ViewBag.Title = "Home";
+
+Build the project, make sure it's still running (if you haven't closed IIS Express it should still be running, else just Ctrl-F5) and run the test again.
 
 ### Resources
 A lot of inspiriration was found:
