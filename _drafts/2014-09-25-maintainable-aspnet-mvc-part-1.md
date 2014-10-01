@@ -20,6 +20,8 @@ In the next screen, select the MVC template and also check the core references f
 
 [NewASPNETProject.PNG]
 
+Press F5 and you should see a browser window with the default ASP.Net template. Note the address, especially the port number.
+
 We have now created a neat little playground for us to mess up :)
 
 ## Add the coded ui tests project
@@ -53,6 +55,13 @@ Add a using to _OpenQA.Selenium.IE_ and add the following line to the test metho
 
             var driver = new InternetExplorerDriver();
 
+Thats all we need to do to make the Web Driver launch a new browser window and interact with it.
+
+Lets navigate it to our home page!
+
+Add the foloowing line to get to the correct page:
+
+driver.Navigate().GoToUrl("http://localhost:50765/");
 
 ### Resources
 A lot of inspiriration was found:
