@@ -53,7 +53,9 @@ To spin up a browser and have selenium interact with it, we have to create the a
 
 Add a using to _OpenQA.Selenium.IE_ and add the following line to the test method:
 
-	var driver = new InternetExplorerDriver();
+{% highlight C# %}
+var driver = new InternetExplorerDriver();
+{% endhighlight %} 
 
 Thats all we need to do to make the Web Driver launch a new browser window and interact with it.
 
@@ -61,7 +63,9 @@ Lets navigate it to our home page!
 
 Add the following line to get to the correct page:
 
-	driver.Navigate().GoToUrl("http://localhost:50765/");
+{% highlight C# %}
+driver.Navigate().GoToUrl("http://localhost:50765/");
+{% endhighlight %} 
 
 Note that the port number may be different. You can find it by going to the properties of the BudgetMeter.Web project and selecting the Web tab. There you should find the Project URL.
 
@@ -69,19 +73,21 @@ This will navigate to our home page, but we still have to do something there.
 
 To check if the title is correct, add the following line:
 
-	Assert.AreEqual("BudgetMeter - Home", driver.Title);
+{% highlight C# %}
+Assert.AreEqual("BudgetMeter - Home", driver.Title);
+{% endhighlight %} 
 
 Driver.title will return the title of the current page it is on, so we can use that to verify that it matches what we expect.
 
 Finally we want to close the Web Driver, so that our browser window also closes:
 
 {% highlight C# %}
-    driver.Quit();
+driver.Quit();
 {% endhighlight %} 
 
 The test method should look like this now:
 
-```C#
+{% highlight C# %}
 [TestMethod]
 public void HasCorrectTitle()
 {
@@ -93,7 +99,7 @@ public void HasCorrectTitle()
 
 	driver.Quit();
 }
-```
+{% endhighlight %} 
 
 ## Making it fail
 To run our test, we first have to make sure that our website is running. Press Ctrl-F5 to start it without debugging.
