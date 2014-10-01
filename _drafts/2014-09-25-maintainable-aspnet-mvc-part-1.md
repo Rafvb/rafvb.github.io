@@ -140,11 +140,15 @@ Now lets get that test green!
 
 Open up the _Layout.cshtml file under Views\Shared and alter the <title> tage to look like this:
 
+{% highlight HTML %}
 	<title>BudgetMeter - @ViewBag.Title</title>
+{% endhighlight %} 
 
 Now open up the Index.cshtml file under Views\Home and change the title of the page by altering the line at the top:
 
+{% highlight C# %}
 	ViewBag.Title = "Home";
+{% endhighlight %} 
 
 Build the project, make sure it's still running (if you haven't closed IIS Express it should still be running, else just Ctrl-F5) and run the test again.
 
