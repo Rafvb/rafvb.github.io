@@ -79,17 +79,19 @@ Finally we want to close the Web Driver, so that our browser window also closes:
 
 The test method should look like this now:
 
-        [TestMethod]
-        public void HasCorrectTitle()
-        {
-            var driver = new InternetExplorerDriver();
+```C#
+[TestMethod]
+public void HasCorrectTitle()
+{
+	var driver = new InternetExplorerDriver();
 
-            driver.Navigate().GoToUrl("http://localhost:50765/");
+	driver.Navigate().GoToUrl("http://localhost:50765/");
 
-            Assert.AreEqual("BudgetMeter - Home", driver.Title);
+	Assert.AreEqual("BudgetMeter - Home", driver.Title);
 
-            driver.Quit();
-        }
+	driver.Quit();
+}
+```
 
 ## Making it fail
 To run our test, we first have to make sure that our website is running. Press Ctrl-F5 to start it without debugging.
