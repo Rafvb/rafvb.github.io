@@ -14,11 +14,11 @@ A simple case, but enough to demonstrate the set-up we'll create.
 ## Creating the project
 Fire up your Visual Studio (I'm using VS2013 R3) and create a new project. Select ASP.NET Web Application and name the solution **BudgetMeter** and the project **BudgetMeter.Web**.
 
-[CreateNewProject.PNG]
+![Create new project]({{ site.baseurl }}/images/aspnetmvc/part1/CreateNewProject.PNG)
 
 In the next screen, select the MVC template and also check the core references for Web API. We won't use any authentication, so click Change Authentication and select No Authentication.
 
-[NewASPNETProject.PNG]
+![Create new ASP.NET MVC project]({{ site.baseurl }}/images/aspnetmvc/part1/NewASPNETProject.PNG)
 
 Press F5 and you should see a browser window with the default ASP.Net template. Note the address, especially the port number.
 
@@ -27,7 +27,7 @@ We have now created a neat little playground for us to mess up :)
 ## Add the coded ui tests project
 Now we will create our first coded ui test, but we will seperate them into a seperate project. Add a new Unit Test Project to the solution and name it **BudgetMeter.CodedUITests**.
 
-[CreateNewCodedUITestsProject.PNG]
+![Create new test project project]({{ site.baseurl }}/images/aspnetmvc/part1/CreateNewCodedUITestsProject.PNG)
 
 _Why no Coded UI Test project type?_
 
@@ -37,6 +37,8 @@ Next we'll add Selenium into the test project.
 
 ## Adding Selenium
 Richt click on the coded ui project and select _Manage NuGet Pacakges_. Search for _Selenium WebDriver_. Install the _Selenium WebDriver_ (contains the actual web driver) and _Selenium WebDriver Support Classes_ (helps us select elements on the page, wait for things to load, ...) packages.
+
+![Install Selenium NuGet packages]({{ site.baseurl }}/images/aspnetmvc/part1/InstallSelenium.PNG)
 
 To start off we will do our tests in Internet Explorer. Chrome and Firefox work out of the box, and in the next posts I'll show you how you can also go 'headless', but IE requires an extra step to work. We'll get to that step in a moment.
 
@@ -123,7 +125,7 @@ Download the **32 bit** verion! We expirienced performance issues with the 64 bi
 
 Unzip and place the executable somewhere. Next, make sure you place it's folder on the systems path variable, so Selenium can use it.
 
-[AddIEDriverToPath.PNG]
+![Add IE Driver Server to the Path variable]({{ site.baseurl }}/images/aspnetmvc/part1/AddIEDriverToPath.PNG)
 
 If you run the test again, IE should pop open and navigate to our home page!
 
