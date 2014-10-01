@@ -40,6 +40,18 @@ To start off we will do our tests in Internet Explorer. Chrome and Firefox work 
 
 Let's write our first test now!
 
+## Our first test
+In the test project rename UnitTest1.cs to **HomePageTests.cs**. Also rename the class itselve.
+
+The first test we'll do is to just check the title of the home page. We want it to display _BugetMeter - Home_.
+
+So rename **TestMethod1** to **HasCorrectTitle** to reflect what we are testing.
+
+To spin up a browser and have selenium interact with it, we have to create the appropriate Web Driver. For IE this is the _InternetExplorerDriver_.
+
+Add a using to _OpenQA.Selenium.IE_ and add the following line to the test method:
+
+            var driver = new InternetExplorerDriver();
 
 
 ### Resources
