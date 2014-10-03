@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Maintainable ASP.NET MVC Part 1: Setting up coded UI test on ASP.NET MVC using Selenium
