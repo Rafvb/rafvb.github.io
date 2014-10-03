@@ -6,10 +6,13 @@ published: false
 
 I'm doing a series of posts on developing a maintainable ASP.NET MVC website. In this first post we'll be looking at setting up a basic website and using Selenium to create coded UI tests. These tests will be the driver for the implementation we'll be creating in the next posts.
 
-### The case
+## The case
 The website that we'll creating will let us manage our monthly spendings. The user will be able to add expenses and get an overview of them per month.
 
 A simple case, but enough to demonstrate the set-up we'll create.
+
+## The code
+You can find the sample code on [my github repository](https://github.com/Rafvb/BudgetMeter).
 
 ## Creating the project
 Fire up your Visual Studio (I'm using VS2013 R3) and create a new project. Select ASP.NET Web Application and name the solution **BudgetMeter** and the project **BudgetMeter.Web**.
