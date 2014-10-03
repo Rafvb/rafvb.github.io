@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "Maintainable ASP.Net MVC - Part 1"
 published: true
 ---
 
