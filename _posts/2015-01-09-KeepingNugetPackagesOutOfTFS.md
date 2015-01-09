@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "Prevent NuGet from storing packages in TFS"
 published: true
 ---
 
