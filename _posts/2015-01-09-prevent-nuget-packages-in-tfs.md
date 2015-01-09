@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Prevent NuGet from storing packages in TFS
