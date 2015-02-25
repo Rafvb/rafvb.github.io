@@ -4,8 +4,6 @@ title: "Prevent NuGet from storing packages in TFS"
 published: true
 ---
 
-## Prevent NuGet from storing packages in TFS
-
 You can prevent NuGet from adding it's packages into TFS. Starting from TFS 2013, on build it will automatically restore the packages based on the packages\repositories.config.
 This will keep the branches under source control clean and prevents old packages from cluttering TFS.
 
