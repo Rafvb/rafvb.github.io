@@ -5,7 +5,7 @@ published: true
 ---
 
 ## Preface
-I've been practicing TDD for a long time now. Along the way my view on how to practice TDD has shifted a lot.
+I've been practicing TDD for a while now. Along the way my view on how to practice TDD has shifted a lot.
 Lately I've given some training sessions on TDD and refactoring, which allowed me to refine my views on what I think is doing TDD the 'right' way.
 When I look around the internet I still see alot of people explaining TDD in a way that can be demotivating for someone 
 who is new to the subject or can even be damaging to a project (I've experienced this hands on).
