@@ -22,4 +22,9 @@ The posts are heavily inspired by
 ## What we'll see
 First we'll go back to basics and ask ourselves why we do TDD. We'll see what benefits good TDD can bring and explore some of the misconceptions.
 Next we'll delve into the concept of mocking and why abuse of it can be damaging. 
-Finally we'll wrap things up with a short look at the hexagonal architecture. 
+Finally we'll wrap things up with a short look at the hexagonal architecture.
+
+## Posts in this series
+* Part 1: Introduction
+* [Part 2: What is TDD and why do we it] (/TDDHowToKeepItFromGoingWrong2/)
+* More to appear soon...
