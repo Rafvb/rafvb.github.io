@@ -94,6 +94,6 @@ We'll see some code samples on when TDD can feel wrong, and what we can do about
 If you want to learn more about TDD, the first place you should go is the fantastic book by Kent Beck, [TDD by example](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530).
 
 ## Posts in this series
-* [Part 1: Introduction] (/TDDHowToKeepItFromGoingWrong1/)
+* [Part 1: Introduction](/TDDHowToKeepItFromGoingWrong1/)
 * Part 2: What is TDD and why do we it
 * More to appear soon...

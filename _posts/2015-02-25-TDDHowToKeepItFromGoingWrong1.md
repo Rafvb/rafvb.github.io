@@ -26,5 +26,5 @@ Finally we'll wrap things up with a short look at the hexagonal architecture.
 
 ## Posts in this series
 * Part 1: Introduction
-* [Part 2: What is TDD and why do we it] (/TDDHowToKeepItFromGoingWrong2/)
+* [Part 2: What is TDD and why do we it](/TDDHowToKeepItFromGoingWrong2/)
 * More to appear soon...
