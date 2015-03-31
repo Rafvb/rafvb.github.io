@@ -96,4 +96,5 @@ If you want to learn more about TDD, the first place you should go is the fantas
 ## Posts in this series
 * [Part 1: Introduction](/TDDHowToKeepItFromGoingWrong1/)
 * Part 2: What is TDD and why do we it
+* [Part 3: When you're using it wrong](/TDDHowToKeepItFromGoingWrong3/)
 * More to appear soon...
