@@ -41,8 +41,10 @@ of no interest to the paperboy, as long as it is done.
 ## Completely loosely coupled
 Now if you've TDD to the letter, as we believed we where doing in the beginning you end up with something like this:
 
+{% highlight C# %}
 ICustomer customer = ...
 IWallet wallet = customer.Wallet;
+{% endhighlight %} 
 
 If we tear open the first example, we can see that we have created some nice interfaces for our customer and our wallet.
 In our tests we stubbed these interfaces, so our paperboy is complete decoupled from the implementations of customer and wallet.
@@ -55,10 +57,12 @@ we would know we had not made a mistake.
 
 We would like to get to something like this:
 
+{% highlight C# %}
 public void ReceivePayment(decimal amountToPay)
 {
 	customer.payUp(amountToPay);
 }
+{% endhighlight %} 
 
 But if we do this, our PaperBoy tests will break. We will have to stub a different method (payUp). And we will have to move some of the tests over to the customer test class.
 Out tests are tightly coupled to our implementation. It feels painful to refactor. In the end, you waste more time on making tests work again. In the long run, you could get an 
